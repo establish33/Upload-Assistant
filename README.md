@@ -17,7 +17,7 @@ A simple tool to take the work out of uploading.
   - Adds to your client with fast resume, seeding instantly (rtorrent/qbittorrent/deluge/watch folder)
   - ALL WITH MINIMAL INPUT!
   - Currently works with .mkv/.mp4/Blu-ray/DVD/HD-DVDs
-
+  - Run automatically without any input
 
 
 ## Coming Soon:
@@ -54,5 +54,6 @@ A simple tool to take the work out of uploading.
   `python3 upload.py /downloads/path/to/content --args`
   
   Args are OPTIONAL, for a list of acceptable args, pass `--help`
+  Use --unattended for automatic usage. Be aware of what your uploading beforehand to not violate any tracker rules.
 ## **Docker Usage:**
   Visit our wonderful [docker usage wiki page](https://github.com/L4GSP1KE/Upload-Assistant/wiki/Docker)
